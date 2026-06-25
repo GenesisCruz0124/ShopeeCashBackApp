@@ -8,4 +8,7 @@ export default defineConfig({
       "/api": "http://localhost:4000",
     },
   },
+  preview: {
+    allowedHosts: true,
+  },
 });
